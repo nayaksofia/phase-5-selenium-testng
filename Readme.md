@@ -60,11 +60,11 @@ Go to `Help` Section and then `Eclipse Market Place` -> Search `TestNG PlugIn: T
 
 >Step - 5: Create a new `class`: `TestNgStandardAnnotationsTest`  or you can create direct `testNg class` by `Right Click on the package name -> Other -> testNg Class `
 
-> Update the project By : `Right Click on Project Name -> Maven -> Update Project`
+>Step-6: Update the project By : `Right Click on Project Name -> Maven -> Update Project`
 
->Step-6:  Start Writing Code Inside Class
+>Step-7:  Start Writing Code Inside Class
 
-> Step-6 : You do execute it as `TestNG` 
+> Step-8 : You do execute it as `TestNG` 
 
 
 ## ToDo :: [4: 36 :00] Write A Test For TestNG based on previously  junit Test cases into TestNG test. 
