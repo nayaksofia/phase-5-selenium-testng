@@ -9,7 +9,39 @@
 - Writing test suit /group
 - Test Parameter
 
+# Configuration Annotation
 
+> `@BeforeSuite` :  Runs before suite execution start
+
+> `@AfterSuite` : Runs after all tests are executed
+
+> `@BeforeTest` Runs before first test in a <test> tag is executed
+
+> @AfterTest Runs after all the tests in a <test> tag are executed
+
+> `@BeforeGroups`: Runs before first test method of the group(s) is executed
+
+> `@AfterGroups` : Runs after all the test methods of the group(s) are executed
+
+> `@BeforeClass`: Runs before first test in a class is executed
+
+> `@AfterClass`: Runs after all the tests in a class are executed
+
+> `@BeforeMethod`: Runs before each test in a class is executed
+
+>`@AfterMethod`: Runs after each test is executed
+
+```
+<Suite Name>
+ <test name="">
+  <classes>
+    <methods>
+
+    </methods>
+ </classes>
+ </test>
+</Suite>
+```
 # Set Up For TestNG
 
 >Step-1: Create a new `maven Project` 
