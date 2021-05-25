@@ -90,11 +90,11 @@ Go to `Help` Section and then `Eclipse Market Place` -> Search `TestNG PlugIn: T
 
 ```
 
->Step - 5: Create a new `class`: `TestNgStandardAnnotationsTest`  or you can create direct `testNg class` by `Right Click on the package name -> Other -> testNg Class `
+>Step - 5: Create a new `class`: `TestNgStandardAnnotationsTest`  or you can create direct `testNg class` by *Right Clicking* on the package name of `src/test/java`  folder -> Other -> choose -> testNg Class ` and after clicking it do check, the right destination path is selected. so as so , configuration annotation. 
 
 >Step-6: Update the project By : `Right Click on Project Name -> Maven -> Update Project`
 
->Step-7:  Start Writing Code Inside Class
+>Step-7:  Start Writing Code Inside Class. Set up activity is same. We need `Web driver`. Set `siteURL` as `jUnit`.
 
 > Step-8 : You do execute it as `TestNG` 
 

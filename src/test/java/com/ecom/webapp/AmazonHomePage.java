@@ -10,33 +10,34 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
 
-public class AmazonHomePageTest {
-  
-
+public class AmazonHomePage {
+	
 	//1. Formulate A Base Test URL
     final  String siteURL = "https://www.amazon.com/";
     //2. Locate A Web Driver BY Locating the path 
     final String driverPath ="driver\\chromedriver.exe"; 
     WebDriver driver;
-    
+  
   @BeforeMethod
   public void beforeMethod() {
+	  
 	  //3. Set Selenium System Properties.
       System.setProperty("webdriver.chrome.driver",driverPath);
-		//4. Instantiate Selenium Web Driver . That means Create an object of the web driver.
+	 //4. Instantiate Selenium Web Driver . That means Create an object of the web driver.
       driver = new ChromeDriver();
-      //5. Launch Browser
+     //5. Launch Browser
       driver.get(siteURL);
   }
 
   @AfterMethod
   public void afterMethod() {
-
-	  driver.close();
+	  
+	//Close Driver 
+      driver.close();
   }
   
   @Test
-  public void testAmazonHomePage() {
+  public void homePageTitleVerification() {
 	  
 	//Perform Test Evaluation
       String expectedTitle = "Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more";
@@ -44,10 +45,9 @@ public class AmazonHomePageTest {
   }
   
   @Test
-  public void testAmazonSourceURL() {
-	  assertEquals(siteURL, driver.getCurrentUrl());
+  public void testUrl() {
+	//Perform Test Evaluation
+      assertEquals(siteURL,driver.getCurrentUrl());
   }
 
-  
-  //TODO :: Amazon related test cases for testNg based on previously jUnit test
 }
