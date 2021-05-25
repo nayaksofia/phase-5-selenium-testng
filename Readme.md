@@ -15,13 +15,13 @@
 
 > `@AfterSuite` : Runs after all tests are executed
 
-> `@BeforeTest` Runs before first test in a <test> tag is executed
+> `@BeforeTest`: Runs before first test in a <test> tag is executed
 
-> @AfterTest Runs after all the tests in a <test> tag are executed
+> `@AfterTest`: Runs after all the tests in a <test> tag are executed
 
 > `@BeforeGroups`: Runs before first test method of the group(s) is executed
 
-> `@AfterGroups`: Runs after all the test methods of the group(s) are executed
+> `@AfterGroups` : Runs after all the test methods of the group(s) are executed
 
 > `@BeforeClass`: Runs before first test in a class is executed
 
