@@ -21,7 +21,7 @@
 
 > `@BeforeGroups`: Runs before first test method of the group(s) is executed
 
-> `@AfterGroups` : Runs after all the test methods of the group(s) are executed
+> `@AfterGroups`: Runs after all the test methods of the group(s) are executed
 
 > `@BeforeClass`: Runs before first test in a class is executed
 
