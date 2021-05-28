@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.ecom.webapp.AmazonNavigationLink">
+      <class name="com.ecom.webapp.SoftAssertWithSimplilearnLogIn">
         <methods>
-          <include name="afterMethod"/>
-          <include name="computersLinkVerification"/>
-          <include name="beforeMethod"/>
+          <include name="launchChromeTest"/>
+          <include name="testSimplilearnHomePageTitle"/>
         </methods>
-      </class> <!-- com.ecom.webapp.AmazonNavigationLink -->
+      </class> <!-- com.ecom.webapp.SoftAssertWithSimplilearnLogIn -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
